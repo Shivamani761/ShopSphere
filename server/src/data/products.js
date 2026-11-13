@@ -1,0 +1,42 @@
+const image = (id) => `https://images.unsplash.com/${id}?auto=format&fit=crop&w=900&q=80`;
+
+export const products = [
+  { id: "EL-001", name: "Nova X Pro Smartphone", category: "Electronics", price: 74999, rating: 4.8, reviews: 1240, image: image("photo-1511707171634-5f897ff02aa9") },
+  { id: "EL-002", name: "Sonic Wireless Headphones", category: "Electronics", price: 8999, rating: 4.6, reviews: 862, image: image("photo-1505740420928-5e560c06d30e") },
+  { id: "EL-003", name: "Aero Smart Watch", category: "Electronics", price: 12999, rating: 4.4, reviews: 536, image: image("photo-1523275335684-37898b6baf30") },
+  { id: "EL-004", name: "Creator 14 Laptop", category: "Electronics", price: 68990, rating: 4.7, reviews: 978, image: image("photo-1496181133206-80ce9b88a853") },
+  { id: "EL-005", name: "Mechanical Keyboard", category: "Electronics", price: 6499, rating: 5.0, reviews: 702, image: image("photo-1587829741301-dc798b83add3") },
+  { id: "EL-006", name: "Precision Wireless Mouse", category: "Electronics", price: 2499, rating: 4.3, reviews: 622, image: image("photo-1527814050087-3793815479db") },
+  { id: "EL-007", name: "Portable Bluetooth Speaker", category: "Electronics", price: 3999, rating: 3.9, reviews: 491, image: image("photo-1608043152269-423dbba4e7e1") },
+  { id: "EL-008", name: "4K Action Camera", category: "Electronics", price: 18999, rating: 4.5, reviews: 389, image: image("photo-1516035069371-29a1b244cc32") },
+  { id: "AP-001", name: "Classic Cotton Overshirt", category: "Apparel", price: 2299, rating: 4.1, reviews: 205, image: image("photo-1598033129183-c4f50c736f10") },
+  { id: "AP-002", name: "Everyday Linen Shirt", category: "Apparel", price: 1799, rating: 4.3, reviews: 311, image: image("photo-1603252109303-2751441dd157") },
+  { id: "AP-003", name: "Essential Crew Neck Tee", category: "Apparel", price: 899, rating: 4.0, reviews: 720, image: image("photo-1521572163474-6864f9cf17ab") },
+  { id: "AP-004", name: "Urban Denim Jacket", category: "Apparel", price: 3499, rating: 4.6, reviews: 444, image: image("photo-1543076447-215ad9ba6923") },
+  { id: "AP-005", name: "Relaxed Fit Chinos", category: "Apparel", price: 1999, rating: 3.8, reviews: 188, image: image("photo-1473966968600-fa801b869a1a") },
+  { id: "AP-006", name: "Weekend Hoodie", category: "Apparel", price: 2499, rating: 4.7, reviews: 590, image: image("photo-1556821840-3a63f95609a7") },
+  { id: "AP-007", name: "Minimal Summer Dress", category: "Apparel", price: 2899, rating: 4.5, reviews: 256, image: image("photo-1496747611176-843222e1e57c") },
+  { id: "AP-008", name: "Everyday Canvas Tote", category: "Apparel", price: 699, rating: 4.2, reviews: 166, image: image("photo-1544816155-12df9643f363") },
+  { id: "FW-001", name: "Cloud Knit Sneakers", category: "Footwear", price: 5499, rating: 4.7, reviews: 978, image: image("photo-1542291026-7eec264c27ff") },
+  { id: "FW-002", name: "Classic Leather Loafers", category: "Footwear", price: 6999, rating: 4.4, reviews: 320, image: image("photo-1614252369475-531eba835eb1") },
+  { id: "FW-003", name: "Trail Runner Low", category: "Footwear", price: 7999, rating: 4.8, reviews: 447, image: image("photo-1552674605-db6ffd4facb5") },
+  { id: "FW-004", name: "Everyday Walking Shoes", category: "Footwear", price: 3299, rating: 4.1, reviews: 510, image: image("photo-1460353581641-37baddab0fa2") },
+  { id: "FW-005", name: "Street High-Top Sneakers", category: "Footwear", price: 4599, rating: 4.5, reviews: 281, image: image("photo-1525966222134-fcfa99b8ae77") },
+  { id: "FW-006", name: "Performance Running Shoes", category: "Footwear", price: 8999, rating: 5.0, reviews: 630, image: image("photo-1539185441755-769473a23570") },
+  { id: "FW-007", name: "Minimal Slide Sandals", category: "Footwear", price: 1499, rating: 3.7, reviews: 143, image: image("photo-1603487742131-4160ec999306") },
+  { id: "FW-008", name: "Heritage Canvas Sneakers", category: "Footwear", price: 2799, rating: 4.0, reviews: 204, image: image("photo-1525966222134-fcfa99b8ae77") },
+
+  { id: "HK-001", name: "Nordic Ceramic Dinner Set", category: "Home & Kitchen", price: 3299, rating: 4.7, reviews: 214, image: image("photo-1603199506016-b9a594b593c0") },
+  { id: "HK-002", name: "Bamboo Storage Organizer", category: "Home & Kitchen", price: 1299, rating: 4.4, reviews: 178, image: image("photo-1600210492486-724fe5c67fb0") },
+  { id: "HK-003", name: "Stainless Steel Cookware Set", category: "Home & Kitchen", price: 6499, rating: 4.8, reviews: 392, image: image("photo-1556911220-bff31c812dba") },
+  { id: "HK-004", name: "Minimal Table Lamp", category: "Home & Kitchen", price: 2199, rating: 4.3, reviews: 129, image: image("photo-1507473885765-e6ed057f782c") },
+  { id: "HK-005", name: "Cotton Cushion Cover Set", category: "Home & Kitchen", price: 899, rating: 4.1, reviews: 96, image: image("photo-1584100936595-c0654b55a2e2") },
+  { id: "HK-006", name: "Insulated Travel Tumbler", category: "Home & Kitchen", price: 799, rating: 4.5, reviews: 301, image: image("photo-1602143407151-7111542de6e8") },
+  { id: "SP-001", name: "Pro Training Football", category: "Sports", price: 1499, rating: 4.6, reviews: 287, image: image("photo-1614632537423-1e6c2e7e0c7b") },
+  { id: "SP-002", name: "Adjustable Dumbbell Pair", category: "Sports", price: 4999, rating: 4.8, reviews: 418, image: image("photo-1583454110551-21f2fa2afe61") },
+  { id: "SP-003", name: "Performance Yoga Mat", category: "Sports", price: 1199, rating: 4.5, reviews: 365, image: image("photo-1592432678016-e910b452f9a2") },
+  { id: "SP-004", name: "Carbon Badminton Racket", category: "Sports", price: 2799, rating: 4.2, reviews: 144, image: image("photo-1626224583764-f87db24ac4ea") },
+  { id: "SP-005", name: "Running Training Bottle", category: "Sports", price: 599, rating: 4.0, reviews: 103, image: image("photo-1526401485004-2aa7f3b5e0e8") },
+  { id: "SP-006", name: "Resistance Bands Set", category: "Sports", price: 899, rating: 4.7, reviews: 256, image: image("photo-1598289431512-b97b0917affc") }
+
+];
