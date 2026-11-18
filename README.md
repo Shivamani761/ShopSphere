@@ -1,6 +1,6 @@
 # ShopSphere — Full-Stack Product Discovery
 
-A responsive e-commerce product discovery application built for the Vibe Coding assessment. React sends filter state to an Express REST API; all product filtering, validation and sorting happen on the server.
+A responsive e-commerce product discovery application . React sends filter state to an Express REST API; all product filtering, validation and sorting happen on the server.
 
 ## Features
 - Multi-select categories: Electronics, Apparel and Footwear
